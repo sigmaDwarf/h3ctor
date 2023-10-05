@@ -17,25 +17,39 @@
 }
 
 body {
-  background-color: #000000;
-    overflow-x: hidden;
+  background-color: black;
+  overflow-x: hidden;
 }
 
-.Carousel{
+main {
+  background: linear-gradient(
+    to right top,
+    rgba(0, 0, 0, 0) 20%,
+    rgba(53, 47, 68, 0.7) 32%,
+    rgba(0, 0, 0, 0.7) 50%,
+    rgba(92, 84, 112, 0.7) 62%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+}
+
+.Carousel {
   animation: carousel 3000s linear infinite;
   display: flex;
   flex-wrap: nowrap;
   width: 100vw;
 }
-.Block{
+.Block {
   flex-shrink: 0;
   width: 150px;
 }
-@keyframes carousel{
-  0%   { transform: translate3d(0, 0, 0); }
-  100% { transform: translate3d(-20000px, 0, 0); }
+@keyframes carousel {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-20000px, 0, 0);
+  }
 }
-
 
 /* 
 000000 
