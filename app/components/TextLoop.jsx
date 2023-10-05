@@ -511,6 +511,7 @@ const carouselStyles = {
   animation: 'carousel 400s linear infinite',
   display: 'flex',
   color: '#EE9322',
+  textShadow: '1px 1px 2px rgba(172, 55, 55, 0.7)',
 };
 
 export default TextLoop;

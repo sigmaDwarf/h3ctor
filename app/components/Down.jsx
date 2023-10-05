@@ -7,7 +7,7 @@ const Down = () => {
   return (
     <>
       <div className="w-screen flex justify-center items-center px-16 py-4">
-        <span className="text-white pb-0 text-center">
+        <span className="text-white pb-0 text-center text-2xl">
           Moderator of{' '}
           <a
             href="https://www.novellabs.xyz/"
@@ -16,7 +16,7 @@ const Down = () => {
           >
             Mutant cartel
           </a>
-          <hr className="pb-4" />
+          <hr className="pb-4 border-none" />
           Sippin serum in{' '}
           <a
             className="text-custom-4 underline bold"
@@ -36,12 +36,12 @@ const Down = () => {
         </span>
       </div>
 
-      <div className="w-screen flex justify-center items-center">
+      <div className="w-screen flex justify-center items-center  py-4">
         <Icon
           path={mdiPanDown}
           size={3}
           color="#EE9322"
-          className="hover:translate-y-[-5%] ease-out duration-500 hover:bg-custom-3 hover:rounded-full hover:bg-opacity-20"
+          className="hover:translate-y-[5%] ease-out duration-500 hover:bg-custom-3 hover:rounded-full hover:bg-opacity-20"
           href="#nfts"
         />
       </div>

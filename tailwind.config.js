@@ -6,23 +6,21 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       backgroundColor: {
         'custom-1': '#000000',
         'custom-2': '#352F44',
         'custom-3': '#5C5470',
         'custom-4': '#EE9322',
-     
-      }, textColor: {
+      },
+      textColor: {
         'custom-1': '#000000',
         'custom-2': '#352F44',
         'custom-3': '#5C5470',
         'custom-4': '#EE9322',
-      }
+      },
+      backgroundImage: {
+        'bg-main': "url('/bg13.png')", 
+      },
     },
   },
   plugins: [],
